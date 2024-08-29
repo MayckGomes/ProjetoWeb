@@ -24,5 +24,5 @@ def logar():
         return "<h2>Dados invalidos</h2>"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
 
