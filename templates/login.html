@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+<form action="/logar" method="post">
+    <input name="login" placeholder="Login" type="text"><br>
+    <input name="senha" placeholder="Senha" type="password"><br>
+    <button type="submit">Entrar</button>
+</form>
+
+{% endblock %}
